@@ -8,7 +8,7 @@
 
 int main()
 	{
-	char quit == 'y';
+	char quit = 'y';
 	while (quit == 'y')
 		{
 		int burger_choice;
