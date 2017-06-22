@@ -22,7 +22,8 @@ int main()
 				//if(Answer == "Y")
 					//std::cout << "What else would you like?";
 			
-		}if (burger_choice == 2);
+		}
+		if (burger_choice == 2);
 			std::cout << "You have selected a Cheeseburger.\n";
 		if (burger_choice == 3)
 			std::cout << "You have selected a Baconburger.\n";
