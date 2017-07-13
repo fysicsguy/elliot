@@ -55,15 +55,19 @@ int main()
 		if (std::cin.fail()){					
 			std::cin.clear();
 			std::cin.ignore(10, '\n');
-			std::cout << "Please Select a Valid Option.\n";
+			std::cout << "Invalid Selection.\n";
+			
 		}
 		
 		while (drink_choice != 1 and drink_choice != 2 and drink_choice != 3 or drink_choice == 0 ){
-		std::cout << "Invalid Selection\n";
+		std::cout << "Please select a valid option.\n";
+		std::cout << "Please select a drink /n1)Sprite			$1.00 \n2)Coke			$1.00 \n3)Tequila			$3.00\n";	
 		std::cin.clear();
 		if(!(std::cin >> drink_choice)){
 			std::cin.clear();
 			std::cin.ignore(10, '\n');}}
+		
+			
 		
 		
 		
